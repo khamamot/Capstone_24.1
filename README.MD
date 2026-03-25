@@ -8,6 +8,9 @@ This dataset comes from the original Berkeley DeepDrive (BDD100K) dataset, conve
 
 After looking at a random sample of more then 100 of the images, they all appear to be captured from dash-cams mounted on cars. They constitute a wide range of times of day, weather conditions, lighting conditions, and traffic patterns. While the dataset contains a wide range of urban conditions, it fails to contain significant suburban and rural conditions that autonomous vehicles will eventually encounter.
 
+### Notebook
+https://github.com/khamamot/Capstone_24.1/blob/master/test.ipynb
+
 ### Metrics Used For Analyzing Results
 The two metrics I used to analyze the results are mAP50 and mAP50-95. mAP50 stands for mean Average Precision with an Intersection of Union >= 0.50, basically was the object roughly found (the overlay of the predicted bounding box and the true bounding box are at least 50%.) mAP50-95 is similar, but more strict, evaluation the threshholds over multiple Intersections of Union between 0.50 and 0.95.
 
